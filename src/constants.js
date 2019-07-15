@@ -1,0 +1,15 @@
+
+
+
+const 
+    WIDTH = 460, HEIGHT = 760, SCALE = 0.9, NONE = -1, RIGHT = 0, LEFT = 2, BOTTOM = 500,
+    ARROW_L = 0, BOULDER = 1, DIAMOND = 2, F0 = 3, F1 = 4, F2 = 5, F3 = 6, F4 = 7, F5 = 8, F6 = 9, 
+    F7 = 10, FLOOR = 11, LADER = 12, LIANA = 13, SPIKE = 14, W0 = 15, W1 = 16, W2 = 17, HERO_B1 = 18, 
+    HERO_B2 = 19, HERO_R1 = 20, HERO_R2 = 21, GREEN_R = 22, LILA_L = 23, ARROW_R = 24, HERO_L1 = 25, 
+    HERO_L2 = 26, GREEN_L = 27, LILA_R = 28, BIG_CLD = 29, HERO_BR = 30, HERO_BL = 31, TWO_PI = Math.PI * 2, 
+    BACK = 1, BURN = 2, SIDE = 3, SCROLL_SPEED = 200, LEVEL_HEIGHT = 150,  GAME = 1, MENU = 2, GAME_OVER = -666,
+
+
+    Animation = {NONE: 0, ONCE: 1, BOUNCE: 2, IOIO: 3},
+    Collision = {NO_COL: 0, LADER: 1, DIAMOND: 2, FIRE: 4, SPIKE: 8, MONSTER: 16, ARROW: 32, BOULDER: 64};
+    
